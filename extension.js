@@ -58,13 +58,13 @@
     //Mudar as configurações padrões do bot e ter certeza que elas foram carregadas corretamente
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "EB-BOT-",
+        botName: "Brazilian-BOT-",
         language: "portuguese",
         chatLink: "https://rawgit.com/DedeCoelho/basicBot/master/lang/pt-BR.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true ou false
-        autowoot: true,
+        autowoot: false,
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 120,
@@ -97,9 +97,9 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Mensagem do dia",
+        motd: "!roulette",
         filterChat: false,
         etaRestriction: false,
         welcome: true,
