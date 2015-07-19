@@ -64,7 +64,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true ou false
-        autowoot: false,
+        autowoot: true,
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 120,
@@ -106,7 +106,7 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: true,
         youtubeLink: null,
         website: null,
         intervalMessages: [],
