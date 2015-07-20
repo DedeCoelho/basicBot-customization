@@ -106,7 +106,7 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: true,
         youtubeLink: null,
         website: null,
         intervalMessages: [],
